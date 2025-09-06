@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    text-align: top;
+    padding: 20px;
+    height: 150px;
+    
+}
+.company-logo{
+    padding-left: 530px;
+    margin-top: -120px;
+    width: 350px;
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.member {
+    text-align: left;
+}
+
+
+.about-section {
+    background-image: url("https://fwmedia.fandomwire.com/wp-content/uploads/2023/10/23143218/crimson-sunset-assassins-creed-codename-red-thumb-2-1024x563.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100vh;
+    position: relative;
+}
+
+

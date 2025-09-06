@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="game-page-styles/out2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header class="fixed-header">
+        <nav>
+          <ul>
+            <li><a href="game-homepage.html".html>Home</a></li>
+            <li><a href="webpage2.html">Store</a></li>
+            
+          </ul>
+        </nav>
+    </header>
+    <div class="logo"> &nbsp;PLANET 69&nbsp; </div>
+    <div class="container">
+        <h1>Game Bought!!</h1>
+        <p>Order Placed Time:<span id="time"></span></p>
+    </div>
+
+    <script>
+        
+        const currentTime = new Date();
+        currentTime.setHours(currentTime.getHours() + 1);
+        document.getElementById('time').innerText = currentTime.toLocaleTimeString();
+    </script>
+</body>
+</html>

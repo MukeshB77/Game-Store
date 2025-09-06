@@ -1,0 +1,64 @@
+body{    
+    font-family:"Silkscreen" ;
+    background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWdsYXFqM3hxbTM0czVkMXc5Y3I4d2duNnJuMGtrcno0NDYxMG5mOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DKnMqdm9i980E/giphy.webp");
+    background-size: cover;
+}
+.logo
+{
+    font-size: 30px;
+    position: absolute;
+    left: 1300px;
+    color: rgb(255, 0, 0);
+    
+}
+.fixed-header {
+    position: fixed;
+    border-radius: 5%;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background-color: rgba(12, 33, 2, 0);
+    color: rgb(106, 2, 2);
+    padding: 5px;
+    font-size: 15px;
+    cursor: crosshair;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    cursor: crosshair;
+  }
+  nav li {
+    margin: 0 50px;
+    cursor: crosshair;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:white;
+    font-size: 32px;
+  }
+  
+
+
+h1{
+    font-size: 70px;
+}
+.container
+{
+    font-size: 20px;
+    position: absolute;
+    left: 450px;
+    top: 210px;
+    color: rgb(255, 0, 0);
+   
+}
+input
+{
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
